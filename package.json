@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npm install && npm run lint && npm run test && npm run start",
-    "lint": "eslint .",
-    "test": "mocha"
+    "build": "npm install && npm run lint && npm run test && npm run start"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
